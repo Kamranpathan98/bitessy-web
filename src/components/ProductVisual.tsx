@@ -10,14 +10,13 @@ export default function ProductVisual() {
         </div>
         <div className="workspace-tabs"><span className="active-tab">Orders</span><span>Menu</span><span>Customers</span><span className="workspace-more">•••</span></div>
         <div className="workspace-body">
-          <div className="order-heading"><div><span className="mini-label">DINE-IN / ORDER #024</span><h3>Table 04<span className="table-detail">4 seats</span></h3></div><span className="status"><i />Open</span></div>
+          <div className="order-heading"><div><span className="mini-label">DINE-IN / ORDER #024</span><p className="order-title">Table 04<span className="table-detail">4 seats</span></p></div><span className="status"><i />Open</span></div>
           <div className="order-column-labels"><span>Item</span><span>Amount</span></div>
           <div className="order-line"><span className="item-quantity">1</span><div><strong>Paneer Tikka</strong><small>Fresh from the tandoor</small></div><span className="item-price">₹280</span></div>
-          <div className="order-line"><span className="item-quantity">2</span><div><strong>Masala Soda</strong><small>A little fizz, a little spice</small></div><span className="item-price">₹160</span></div>
-          <div className="order-total"><span>Subtotal <small>3 items</small></span><strong>₹440<span>.00</span></strong></div>
+          <div className="order-line"><span className="item-quantity">1</span><div><strong>Masala Soda</strong><small>A little fizz, a little spice</small></div><span className="item-price">₹80</span></div>
+          <div className="order-total"><span>Subtotal <small>2 items</small></span><strong>₹360<span>.00</span></strong></div>
           <div className="order-action"><span className="accepted-check">✓</span><span>Order accepted<small>Sent to the kitchen</small></span><span className="order-arrow">↗</span></div>
         </div>
-        <div className="workspace-bottom"><span><i />All changes saved</span><span>Connected operations</span></div>
       </div>
       <div className="floating-card kitchen-card" aria-hidden="true">
         <div className="floating-heading"><span className="small-icon">♨</span><strong>Kitchen</strong><span className="ticket-number">#024</span></div>
